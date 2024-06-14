@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .App {
   text-align: center;
   margin-top: 20rem;
@@ -6,7 +10,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .confetti {
-    animation: App-logo-spin infinite 5s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -14,10 +18,12 @@
 
 h1 {
   animation: App-logo-spin infinite 20s linear;
+  color: white;
 }
 
 p{
   animation: App-logo-spin infinite 15s linear;
+  color: white;
 }
 
 @keyframes App-logo-spin {
