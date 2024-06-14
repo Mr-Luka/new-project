@@ -4,12 +4,20 @@
 }
 
 
+@media (prefers-reduced-motion: no-preference) {
+  .confetti {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+
+
 h1 {
-  animation: App-logo-spin infinite 10s linear;
+  animation: App-logo-spin infinite 20s linear;
 }
 
 p{
-  animation: App-logo-spin infinite 5s linear;
+  animation: App-logo-spin infinite 15s linear;
 }
 
 @keyframes App-logo-spin {
